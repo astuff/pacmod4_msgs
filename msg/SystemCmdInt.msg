@@ -94,4 +94,3 @@ bool ignore_overrides   # Set true for respective system to ignore overrides
 bool clear_override     # Set true to clear a system override flag
 
 uint16 command          # Set the commands to respective system constants defined above.
-

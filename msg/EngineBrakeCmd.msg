@@ -18,4 +18,3 @@ bool ignore_overrides
 bool clear_override
 uint8 engine_brake_cmd
 uint8 auto_cmd
-

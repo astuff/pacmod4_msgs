@@ -12,4 +12,3 @@ uint8 tire_position_3
 uint8 tire_pressure_1
 uint8 tire_pressure_2
 uint8 tire_pressure_3
-

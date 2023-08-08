@@ -10,4 +10,3 @@ float64 intended_engine_brk_torque
 bool engine_brake_status_avail
 bool actual_engine_brk_torque_avail
 bool intended_engine_brk_torque_avail
-

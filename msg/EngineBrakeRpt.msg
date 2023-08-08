@@ -26,4 +26,3 @@ uint8 output_value
 uint8 out_auto
 uint8 cmd_auto
 uint8 man_auto
-

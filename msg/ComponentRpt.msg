@@ -64,4 +64,3 @@ bool system_fault_active
 uint8 user_pc_health_fault_00
 uint8 user_pc_health_fault_01
 bool differential_locks
-

@@ -7,4 +7,3 @@ uint8 brake_pressure_axle_2_right
 uint8 brake_pressure_axle_3_left
 uint8 brake_pressure_axle_3_right
 uint8 pneumatic_supply_pressure
-

@@ -16,4 +16,3 @@ uint8 enable_method
 bool override_mode
 bool development_mode
 bool development_mode_allowed
-

@@ -12,4 +12,3 @@ uint8 tire_position_3
 uint8 tire_temperature_1
 uint8 tire_temperature_2
 uint8 tire_temperature_3
-
