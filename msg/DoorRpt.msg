@@ -9,6 +9,7 @@ bool rear_passenger_door_open       # True if the door is open
 bool hood_open                      # True if open
 bool trunk_open                     # True if open
 bool fuel_door_open                 # True if open
+bool cargo_door_open                 # True if open
 bool driver_door_open_avail         # True if this information is available on the platform.
                                     # Does not change during operation.
 bool passenger_door_open_avail      # True if this information is available on the platform.
@@ -22,4 +23,6 @@ bool hood_open_avail                # True if this information is available on t
 bool trunk_open_avail               # True if this information is available on the platform.
                                     # Does not change during operation.
 bool fuel_door_open_avail           # True if this information is available on the platform.
+                                    # Does not change during operation.
+bool cargo_door_open_avail           # True if this information is available on the platform.
                                     # Does not change during operation.

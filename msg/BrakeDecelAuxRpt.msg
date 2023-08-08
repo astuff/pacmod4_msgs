@@ -1,4 +1,4 @@
-# Auxiliary feedback data related to brake deccel system
+# Auxiliary feedback data related to brake decel system
 
 # XBR Active Control Mode Constants
 uint16 NO_BRAKE_DEMAND = 0

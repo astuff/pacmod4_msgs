@@ -36,6 +36,25 @@ uint16 ENGINE_BRAKE_LOW = 1
 uint16 ENGINE_BRAKE_MEDIUM = 2
 uint16 ENGINE_BRAKE_HIGH = 3
 
+# Engine Rpt Manual Input Constants
+uint16 ENGINE_MAN_OFF = 0
+uint16 ENGINE_MAN_ACC = 1
+uint16 ENGINE_MAN_ON = 2
+uint16 ENGINE_MAN_START = 3
+uint16 ENGINE_MAN_RUN = 4
+uint16 ENGINE_MAN_ERROR = 254
+uint16 ENGINE_MAN_NOT_AVAIL = 255
+
+# Engine Rpt Command Constants
+uint16 ENGINE_CMD_NO_ACTION = 0
+uint16 ENGINE_CMD_OFF = 1
+
+# Engine Rpt Manual Input Constants
+uint16 ENGINE_OUT_OFF = 0
+uint16 ENGINE_OUT_RUNNING = 1
+uint16 ENGINE_OUT_ERROR = 254
+uint16 ENGINE_OUT_NOT_AVAIL = 255
+
 # Headlight Command Constants
 uint16 HEADLIGHTS_OFF = 0
 uint16 HEADLIGHTS_LOW = 1
@@ -63,6 +82,11 @@ uint16 SHIFT_HIGH = 3
 uint16 SHIFT_FORWARD = 3
 uint16 SHIFT_LOW = 4
 uint16 SHIFT_NONE = 7
+
+# Tipper Body Command Constants
+uint16 NO_ACTION = 0
+uint16 RAISE = 1
+uint16 LOWER = 2
 
 # Turn Command Constants
 uint16 TURN_RIGHT = 0

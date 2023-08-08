@@ -1,4 +1,4 @@
-# User command to control brake deccel system
+# User command to control brake decel system
 
 # XBR EBI Mode Constants
 uint16 NO_ENDURANCE_BRAKE_INTEGRATION_ALLOWED = 0
@@ -21,7 +21,7 @@ std_msgs/Header header
 bool enable                   # Set true to enable the respective system
 bool ignore_overrides         # Set true for respective system to ignore overrides
 bool clear_override           # Set true to clear a system override flag
-float64 brake_deccel_command  # Set command in m/s^2 in the range [0,10.0]
+float64 brake_decel_command  # Set command in m/s^2 in the range [0,10.0]
 uint16 xbr_ebi_mode           # Set the ebi_mode to respective constants defined above.
 uint16 xbr_priority           # Set the priority to respective constants defined above.
 uint16 xbr_control_mode       # Set the control_mode to respective constants defined above.
