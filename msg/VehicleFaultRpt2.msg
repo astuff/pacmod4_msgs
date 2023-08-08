@@ -1,0 +1,29 @@
+# lamp constants
+uint8 LAMP_OFF
+uint8 LAMP_ON
+uint8 ERROR
+uint8 NOT_AVAIL
+
+
+std_msgs/Header header
+
+uint8 brakes_amber_lamp
+uint8 brakes_red_lamp
+uint8 chassis_amber_lamp
+uint8 chassis_red_lamp
+uint8 electronic_brakes_amber_lamp
+uint8 electronic_brakes_red_lamp
+uint8 engine_amber_lamp
+uint8 engine_red_lamp
+uint8 engine_brake_amber_lamp
+uint8 engine_brake_red_lamp
+uint8 management_ecu_amber_lamp
+uint8 management_ecu_red_lamp
+uint8 pneumatic_amber_lamp
+uint8 pneumatic_red_lamp
+uint8 restraints_amber_lamp
+uint8 restraints_red_lamp
+uint8 trailer_abs_amber_lamp
+uint8 trailer_abs_red_lamp
+uint8 transmission_amber_lamp
+uint8 transmission_red_lamp

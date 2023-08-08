@@ -1,0 +1,10 @@
+std_msgs/Header header
+
+int8 drvr_demanded_eng_torque
+int8 actual_engine_torque
+uint8 eng_load_at_current_speed
+uint16 reference_engine_torque
+bool drvr_demanded_eng_torque_avail
+bool actual_engine_torque_avail
+bool eng_load_at_current_speed_avail
+bool reference_engine_torque_avail
