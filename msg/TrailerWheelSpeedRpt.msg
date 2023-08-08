@@ -1,0 +1,4 @@
+std_msgs/Header header
+
+float64 wheel_based_vehicle_speed
+float64 wheel_speed_difference_main_axle

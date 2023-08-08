@@ -1,0 +1,19 @@
+# air_compressor_status constants
+uint8 NOT_ACTIVE = 0
+uint8 ACTIVE = 1
+uint8 ERROR = 2
+
+std_msgs/Header header
+
+uint8 pneumatic_supply_pressure
+uint8 brake_circuit_1_pressure
+uint8 brake_circuit_2_pressure
+uint8 park_trailer_air_pressure
+uint8 powertrain_air_pressure
+uint8 air_compressor_status
+bool pneumatic_supply_pressure_avail
+bool brake_circuit_1_pressure_avail
+bool brake_circuit_2_pressure_avail
+bool park_trailer_air_pressure_avail
+bool powertrain_air_pressure_avail
+bool air_compressor_status_avail

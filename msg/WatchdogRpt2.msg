@@ -4,7 +4,7 @@ std_msgs/Header header
 
 bool accel_rpt_timeout
 bool brake_rpt_timeout
-bool brake_deccel_rpt_timeout
+bool brake_decel_rpt_timeout
 bool cabin_climate_rpt_timeout
 bool cabin_fan_speed_rpt_timeout
 bool cabin_temp_rpt_timeout
@@ -43,3 +43,14 @@ bool mini1_system_present_fault
 bool mini2_system_present_fault
 bool mini3_system_present_fault
 bool drive_mode_invalid
+bool global_cmd_sanity_fault
+bool global_cmd_timeout
+bool exhaust_brake_rpt_timeout
+bool power_take_off_rpt_timeout
+bool tipper_body_00_rpt_timeout
+bool trailer_air_supply_rpt_timeout
+bool trailer_brake_rpt_timeout
+bool engine_rpt_timeout
+bool tipper_body_01_rpt_timeout
+bool tipper_body_02_rpt_timeout
+bool differential_locks_rpt_timeout

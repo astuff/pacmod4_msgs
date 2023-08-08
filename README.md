@@ -1,23 +1,23 @@
-# pacmod3_msgs
+# pacmod4_msgs
 
-A set of ROS messages for use with the [PACMod 3 ROS driver](https://github.com/astuff/pacmod3).
+A set of ROS messages for use with the [PACMod 4 ROS driver](https://github.com/astuff/pacmod4).
 This package is a hybrid ROS1/ROS2 package which means the version history will be the same on both ROS versions.
 
 Note that this package was formerly known as `pacmod_msgs` in ROS Melodic and earlier versions.
-This pacmod3_msgs package has been broken away from `astuff_sensor_msgs` since it requires its own strict versioning scheme in order to reduce disruptions to users and software that depends on it. 
+This pacmod4_msgs package has been broken away from `astuff_sensor_msgs` since it requires its own strict versioning scheme in order to reduce disruptions to users and software that depends on it. 
 
 Deployment of this package has also been moved away from the community ROS buildfarm to our AutonomouStuff debian repository.
 This move was done in order to keep old package versions available for download which gives users greater control over their installed software and also allows downgrades if an upgrade breaks software dependencies.
 
 ## Installation 
 
-Install pacmod3_msgs using our debian repository:
+Install pacmod4_msgs using our debian repository:
 
 ```sh
 sudo apt install apt-transport-https
 sudo sh -c 'echo "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/autonomoustuff-public.list'
 sudo apt update
-sudo apt install ros-$ROS_DISTRO-pacmod3-msgs  
+sudo apt install ros-$ROS_DISTRO-pacmod4-msgs  
 ```
 
 ## Versioning

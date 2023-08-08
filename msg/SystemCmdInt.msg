@@ -50,19 +50,19 @@ uint16 MEDIA_CONTROL_NEXT_TRACK_HANG_UP = 4
 uint16 MEDIA_CONTROL_VOL_UP = 5
 uint16 MEDIA_CONTROL_VOL_DOWN = 6
 
+# Power Take Off Command Constants
+uint16 PTO_OFF = 0
+uint16 PTO_ON = 1
+
 # Rear Pass Door Command Constants
 uint16 DOOR_NEUTRAL = 0
 uint16 DOOR_OPEN = 1
 uint16 DOOR_CLOSE = 2
 
-# Shift Command Constants
-uint16 SHIFT_PARK = 0
-uint16 SHIFT_REVERSE = 1
-uint16 SHIFT_NEUTRAL = 2
-uint16 SHIFT_HIGH = 3
-uint16 SHIFT_FORWARD = 3
-uint16 SHIFT_LOW = 4
-uint16 SHIFT_NONE = 7
+# Tipper Body Command Constants
+uint16 NO_ACTION = 0
+uint16 RAISE = 1
+uint16 LOWER = 2
 
 # Turn Command Constants
 uint16 TURN_RIGHT = 0
@@ -94,4 +94,3 @@ bool ignore_overrides   # Set true for respective system to ignore overrides
 bool clear_override     # Set true to clear a system override flag
 
 uint16 command          # Set the commands to respective system constants defined above.
-

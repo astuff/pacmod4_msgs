@@ -4,6 +4,7 @@
 uint16 RELEASED = 0
 uint16 APPLIED = 1
 uint16 BETWEEN = 2
+uint16 ERROR = 3
 
 std_msgs/Header header
 

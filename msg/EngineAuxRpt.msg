@@ -1,0 +1,12 @@
+std_msgs/Header header
+
+float64 engine_speed
+float64 engine_torque
+uint8 engine_coolant_temp
+bool engine_speed_avail
+bool engine_torque_avail
+bool engine_coolant_temp_avail
+bool fuel_level_avail
+bool diesel_exhaust_fluid_level_avail
+float64 fuel_level
+float64 diesel_exhaust_fluid_level
