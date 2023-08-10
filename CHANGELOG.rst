@@ -2,8 +2,8 @@
 Changelog for package pacmod4_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2023-08-10)
+------------------
 * remove empty lines at end of files
 * :sort
 * add new msgs
