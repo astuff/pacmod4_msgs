@@ -1,5 +1,13 @@
 # User command to control int systems
 
+uint16 SHIFT_PARK = 0
+uint16 SHIFT_REVERSE = 1
+uint16 SHIFT_NEUTRAL = 2
+uint16 SHIFT_HIGH = 3
+uint16 SHIFT_FORWARD = 3
+uint16 SHIFT_LOW = 4
+uint16 SHIFT_NONE = 7
+
 # Cabin Fan Speed Constants
 uint16 FAN_OFF = 0
 uint16 FAN_SPEED_1 = 1

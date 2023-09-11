@@ -16,6 +16,10 @@ bool MARKERLAMP_ON = 1
 bool PARKING_BRAKE_OFF = 0
 bool PARKING_BRAKE_ON = 1
 
+# Parking Brake Command Constants
+bool EXHAUST_BRAKE_OFF = 0
+bool EXHAUST_BRAKE_ON = 1
+
 # Sprayer Command Constants
 bool SPRAY_OFF = 0
 bool SPRAY_ON = 1
